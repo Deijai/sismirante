@@ -6,6 +6,6 @@ script:
 language: java
 jdk:
   - openjdk8
- before_install:
+before_install:
   - chmod +x mvnw
   - chmod +x build.sh
